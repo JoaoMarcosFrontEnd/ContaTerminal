@@ -10,7 +10,8 @@ public class App {
         double saldo = 237.48;
 
         String confirmarAgencia;
-
+        //IMPORTANTÍSSIMO
+        //Aqui é feito a leitura da conta usando o Do-While para isso
         do {
             confirmarAgencia = JOptionPane.showInputDialog(null, "Informe o número da sua agência:", 
                                                             "Verificação de Agência", JOptionPane.QUESTION_MESSAGE);
